@@ -1,0 +1,37 @@
+.bg-gradient-black{
+    background-color:#21243d!important;
+    background-image:linear-gradient(180deg,#21243d 10%,#21243d 100%);
+    background-size:cover
+}
+
+.sidebar .nav-item .collapse .collapse-inner .collapse-item, .sidebar .nav-item .collapsing .collapse-inner .collapse-item {
+    padding: .5rem 1rem;
+     margin: 0;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 0px;
+    white-space: nowrap;
+}
+.sidebar .nav-item .collapse, .sidebar .nav-item .collapsing {
+     margin: 0px;
+}
+.sidebar-dark .nav-item .nav-link:active, .sidebar-dark .nav-item .nav-link:focus, .sidebar-dark .nav-item .nav-link:hover {
+    color: #fff;
+    background: #1d1f33!important;
+}
+.sidebar .nav-item .collapse, .sidebar .nav-item .collapsing {
+    margin: 0px;
+    background: #1d1f33!important;
+}
+.sidebar .nav-item .collapse .collapse-inner .collapse-item:hover, .sidebar .nav-item .collapsing .collapse-inner .collapse-item:hover {
+    background-color: #1d1f33;
+    color: #d3d7de;
+}
+.topbar {
+    height: 4.375rem;
+    background: #2b80ec;
+}
+.form-check-label {
+    text-transform: capitalize;
+}

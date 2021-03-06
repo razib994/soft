@@ -1,0 +1,19 @@
+ $table->increments('id');
+            $table->foreignId('supplier_id');
+            $table->string('lc_number');
+            $table->string('bill_no');
+            $table->string('work_order');
+            $table->string('chalan_no');
+            $table->text('address');
+            $table->decimal('sub_total');
+            $table->decimal('tax');
+            $table->decimal('grand_total');
+
+
+$table->increments('id');
+            $table->foreignId('purchase_invoice_id');
+            $table->string('item_no');
+            $table->string('itme_name');
+            $table->string('quantity');
+            $table->string('unit_price');
+            $table->decimal('total');
